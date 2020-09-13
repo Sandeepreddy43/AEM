@@ -1,0 +1,28 @@
+<div class="jumbotron">
+<h1 class="alert alert-danger text-info text-center">Page Properties</h1>
+<h4 class="alert alert-primary"><b>Created By: -- </b>${pageProperties.createdby}</h4>
+<h4 class="alert alert-primary"><b>For Which Purpose: -- </b>${pageProperties.purposefor}</h4>
+</div>
+<sly data-sly-use.date="${'com.vegfood.models.DateDemo' @ date=properties.datevalue, format='dd/MM/yyyy'}">
+<h2>Date Format - #1:  ${date.formattedDate}</h2>
+</sly>
+
+<sly data-sly-use.date="${'com.vegfood.models.DateDemo' @ date=properties.datevalue, format='yyMMddHHmmssZ'}">
+<h2>Date Format - #2:  ${date.formattedDate}</h2>
+</sly>
+
+<sly data-sly-use.date="${'com.vegfood.models.DateDemo' @ date=properties.datevalue, format='EEE, MMM d,yyyy'}">
+<h2>Date Format - #3:  ${date.formattedDate}</h2>
+</sly>
+
+<sly data-sly-use.date="${'com.vegfood.models.DateDemo' @ date=properties.datevalue, format='MMM d, yyyy'}">
+<h2>Date Format - #4:  ${date.formattedDate}</h2>
+</sly>
+
+<sly data-sly-use.date="${'com.vegfood.models.DateDemo' @ date=properties.datevalue, format='yyyy.MMMMM.dd GGG hh:mm aaa'}">
+<h2>Date Format - #5:  ${date.formattedDate}</h2>
+</sly>
+
+<sly data-sly-use.date="${'com.vegfood.models.DateDemo' @ date=properties.datevalue, format='EEE, d MMM yyyy HH:mm:ss Z'}">
+<h2>Date Format - #6:  ${date.formattedDate}</h2>
+</sly>

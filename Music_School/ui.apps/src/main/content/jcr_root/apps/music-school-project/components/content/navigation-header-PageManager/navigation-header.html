@@ -1,0 +1,13 @@
+<div data-sly-test="${wcmmode.edit}">Show this only in edit mode to the author</div>
+This is Navigation - Header
+
+<sly data-sly-use.navigate="com.vegfood.models.NavigationHeader"/>
+
+<div class="header">
+	<a href="${properties.parentPage @ extension='html'}" id="logo"><img src="${properties.fileReference1}" alt="logo"></a>
+	<ul class="navigation" data-sly-list=${navigate.childPages}>
+		<li>
+			<a href="${item.path @ extension='html'}">${item.name}</a>
+		</li>
+	</ul>
+</div>

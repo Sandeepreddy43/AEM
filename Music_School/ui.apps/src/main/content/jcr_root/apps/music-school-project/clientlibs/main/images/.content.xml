@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content jcr:primaryType="nt:unstructured"/>
+    <bg-instruments-title.png/>
+    <bg-title.png/>
+    <bg-nav.jpg/>
+    <bg-nav-selected2.jpg/>
+    <bg-header.jpg/>
+    <bg-nav-selected.png/>
+    <drums.jpg/>
+    <drums2.jpg/>
+    <drums3.jpg/>
+    <drums4.jpg/>
+    <girl.jpg/>
+    <guitar.jpg/>
+    <girl2.jpg/>
+    <guitar2.jpg/>
+    <icons.png/>
+    <guitar3.jpg/>
+    <instructors.jpg/>
+    <logo.png/>
+    <man.jpg/>
+    <model.jpg/>
+    <music-lesson.jpg/>
+    <music-lesson2.jpg/>
+    <piano.jpg/>
+    <music-lesson3.jpg/>
+    <piano2.jpg/>
+    <piano3.jpg/>
+    <saxophone.jpg/>
+    <saxophone2.jpg/>
+    <saxophone3.jpg/>
+    <singer.jpg/>
+    <singer2.jpg/>
+    <singing-kids.jpg/>
+    <violin.jpg/>
+    <violin2.jpg/>
+    <violin-lesson.jpg/>
+    <violin-lesson2.jpg/>
+    <voice-lesson2.jpg/>
+    <voice-lesson.jpg/>
+    <voice-lesson3.jpg/>
+</jcr:root>

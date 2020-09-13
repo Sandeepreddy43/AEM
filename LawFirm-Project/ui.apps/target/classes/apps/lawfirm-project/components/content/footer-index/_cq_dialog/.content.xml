@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Footer"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[core.wcm.components.list.v1.editor]"
+    helpPath="https://www.adobe.com/go/aem_cmp_list_v1">
+    <content
+        granite:class="cmp-list--editor"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <latestNews
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Latest News"
+                        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <title1
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldDescription="Leave empty to use the page title."
+                                        fieldLabel="News title"
+                                        name="./title1"/>
+                                    <titletext1
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        fieldDescription="Leave empty to use the page title."
+                                        fieldLabel="Title Text"
+                                        name="./titletext1"/>
+                                </items>
+                            </column>
+                        </items>
+                    </latestNews>
+                    <contactUs
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Contact Us"
+                        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <title2
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldDescription="Leave empty to use the page title."
+                                        fieldLabel="Contact Title"
+                                        name="./title2"/>
+                                    <address
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldDescription="Leave empty to use the page title."
+                                        fieldLabel="Address Here"
+                                        name="./address"/>
+                                    <mobile
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                                        fieldDescription="Leave empty to use the page title."
+                                        fieldLabel="Mobile Number"
+                                        name="./mobile"/>
+                                    <email
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldDescription="Leave empty to use the page title."
+                                        fieldLabel="EMail Id Here"
+                                        name="./mail"/>
+                                </items>
+                            </column>
+                        </items>
+                    </contactUs>
+                    <sendUs
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Send Us a Message"
+                        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <title3
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldDescription="Leave empty to use the page title."
+                                        fieldLabel="Send Title"
+                                        name="./title3"/>
+                                    <titletext3
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldDescription="Leave empty to use the page title."
+                                        fieldLabel="Title Text"
+                                        name="./titletext3"/>
+                                </items>
+                            </column>
+                        </items>
+                    </sendUs>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

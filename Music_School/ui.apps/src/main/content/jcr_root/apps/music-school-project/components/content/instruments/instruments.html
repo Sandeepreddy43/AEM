@@ -1,0 +1,17 @@
+<!-- <sly data-sly-use.model="com.vegfood.models.Instruments"/>
+<h1>Date From Dialog: ${properties.datevalue.getTime.toString}</h1>
+<h1>${model.title}</h1>
+<h1>Date #1: ${model.formatDate}</h1>
+<h1>Date #2: ${model.formatDate1}</h1>
+<h1>Date #3: ${model.formatDate2}</h1>
+<h1>Date #4: ${model.formatDate3}</h1> -->
+
+
+<sly data-sly-use.service="com.vegfood.models.TestModel"/>
+${service.author.toUpperCase}
+<h1>HTL Expression . & String Manipulation(HTL): ${properties.text.toUpperCase}</h1>
+<h1>HTL Expression[''] & String Manipulation(HTL): ${properties['text'].toLowerCase}</h1>
+<h1>HTL Expression[""]: ${properties["text"]}</h1>
+
+<h1>currentPage.name: ${currentPage.name}</h1>
+<h1>currentPage.title: ${currentPage.title}</h1>

@@ -1,0 +1,15 @@
+This is Navigation
+<sly data-sly-use.navigate="com.vegfood.models.Navigation"/>
+<ul data-sly-list=${navigate.childPages}>
+<li>${item.name}</li>
+</ul>
+
+
+This is Navigation - Level 2
+<sly data-sly-use.navigate12="com.vegfood.models.HeadNavDemo"/>
+<h2>${navigate12.title}</h2>
+<ul data-sly-list.child=${navigate12.childPages2}>
+
+    	<li>${child.name}</li>
+
+</ul>

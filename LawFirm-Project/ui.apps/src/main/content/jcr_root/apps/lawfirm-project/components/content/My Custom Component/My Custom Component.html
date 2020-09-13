@@ -1,0 +1,7 @@
+My Custom Component
+<sly data-sly-use.hashmap="com.law.models.MapIterator_Sightly" data-sly-list="${hashmap.map.keySet.iterator}">
+		     ${item}
+	<ul data-sly-list.aem="${hashmap.map[item].keySet.iterator}">
+		<li>${aem} ${hashmap.map[item][aem]}</li>
+	</ul>
+</sly>

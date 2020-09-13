@@ -1,0 +1,20 @@
+<sly data-sly-use.multi="com.law.models.MultiFieldDemo"/>
+
+<div class="featured">
+			<!-- <h2>${properties.titlemulti}</h2> -->
+			<ul class="clearfix" data-sly-list="${multi.listData}">
+				<li>
+					<div class="frame1">
+						<div class="box">
+							<img src="${item.image}" alt="Img" height="130" width="197">
+						</div>
+					</div>
+					<p>
+						<b>${item.cardtext1}</b>${item.cardtext2}
+					</p>
+                    <div style="color:royalblue">Event #1: <b style="color:lightcoral">${item.d}</b></div>
+                    <br>
+					<a href="${item.link}" class="more">${item.title}</a>
+				</li>
+             </ul>
+           </div>

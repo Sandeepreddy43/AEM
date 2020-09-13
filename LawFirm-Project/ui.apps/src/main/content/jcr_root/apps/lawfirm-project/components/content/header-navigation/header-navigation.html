@@ -1,0 +1,14 @@
+<sly data-sly-use.navigate="com.law.models.HeaderNavigation"/>
+
+<div id="header">
+		<div class="clearfix">
+			<div class="logo">
+				<a href="#"><img src="${properties.fileReference}" alt="LOGO" height="52" width="362"></a>
+			</div>
+			<ul class="navigation" data-sly-list=${navigate.childPageList}>
+				<li>
+					<a href="${item.path}">${item.name}</a>
+				</li>
+			</ul>
+		</div>
+	</div>

@@ -1,0 +1,14 @@
+<sly data-sly-use.sidebar="com.vegfood.models.SideBarMultiField"/>
+
+<div class="sidebar" >
+	<ul data-sly-list="${sidebar.navItemList}">
+		<li>
+			<span>${item.dateValue}</span>
+			<h2>${item.title}</h2>
+			<a href="${item.link}"><img src="${item.imgRef}" alt=""></a>
+			<p>
+				${item.cardDes}<a href="#" class="more">(more)</a>
+			</p>
+		</li>
+	</ul>
+</div>
